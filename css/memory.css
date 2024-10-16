@@ -102,3 +102,10 @@ a{
         color: black;
     }
 }
+
+.alerta-dulce{
+    background:rgb(21, 146, 196);
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
