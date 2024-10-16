@@ -1,11 +1,7 @@
-// function redireccionPPT(){
-//     location.href = "../pages/PPT.html"
-// }
+let nombre
 
-// function redireccionJDM(){
-//     location.href = "../pages/memory.html"
-// }
-
-// function redireccionTTT(){
-//     location.href = "../pages/TTT.html"
-// }
+document.getElementById("submit").onclick = function(){
+    nombre = document.getElementById("texto").value;
+    document.getElementById("h1").textContent = `Hola ${nombre}`
+    localStorage.setItem("nombre", nombre)
+}
